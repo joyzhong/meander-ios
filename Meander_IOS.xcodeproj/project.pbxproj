@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		586B98D81AD9BF6B008869CA /* myViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B98D71AD9BF6B008869CA /* myViewController2.swift */; };
 		589F95C11AD9981500B3F837 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F95C01AD9981500B3F837 /* AppDelegate.swift */; };
 		589F95C31AD9981500B3F837 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589F95C21AD9981500B3F837 /* ViewController.swift */; };
 		589F95C61AD9981500B3F837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589F95C41AD9981500B3F837 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		586B98D71AD9BF6B008869CA /* myViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myViewController2.swift; sourceTree = "<group>"; };
 		589F95BB1AD9981500B3F837 /* Meander_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meander_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589F95BF1AD9981500B3F837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		589F95C01AD9981500B3F837 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				589F95C01AD9981500B3F837 /* AppDelegate.swift */,
 				589F95C21AD9981500B3F837 /* ViewController.swift */,
+				586B98D71AD9BF6B008869CA /* myViewController2.swift */,
 				589F95C41AD9981500B3F837 /* Main.storyboard */,
 				589F95C71AD9981500B3F837 /* Images.xcassets */,
 				589F95C91AD9981500B3F837 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586B98D81AD9BF6B008869CA /* myViewController2.swift in Sources */,
 				589F95C31AD9981500B3F837 /* ViewController.swift in Sources */,
 				589F95C11AD9981500B3F837 /* AppDelegate.swift in Sources */,
 			);
@@ -341,6 +345,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Meander_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -351,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Meander_IOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -409,6 +415,7 @@
 				589F95DC1AD9981500B3F837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		589F95DD1AD9981500B3F837 /* Build configuration list for PBXNativeTarget "Meander_IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				589F95DF1AD9981500B3F837 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

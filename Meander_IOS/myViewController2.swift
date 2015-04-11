@@ -10,10 +10,15 @@ import UIKit
 
 class myViewController2: UIViewController {
 
+    @IBOutlet var label: UILabel!
+    
+    var arr = [String]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        label.text = ", ".join(arr)
     }
 
     override func didReceiveMemoryWarning() {

@@ -9,7 +9,7 @@
 import UIKit
 
 class myViewController2: UIViewController {
-
+    @IBOutlet var viewMap: GMSMapView!
     @IBOutlet var label: UILabel!
     
     var activitiesDict = [String: [String: [String]]]()
@@ -17,6 +17,9 @@ class myViewController2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let camera: GMSCameraPosition = GMSCameraPosition.cameraWithLatitude(48.857165, longitude: 2.354613, zoom: 8.0)
+        viewMap.camera = camera
     }
 
     override func didReceiveMemoryWarning() {

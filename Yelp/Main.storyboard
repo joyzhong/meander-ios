@@ -7,7 +7,7 @@
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Meander_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Meander" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -70,12 +70,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="622" y="298"/>
+            <point key="canvasLocation" x="254" y="100"/>
         </scene>
         <!--My View Controller2-->
         <scene sceneID="z5Q-Fz-2IE">
             <objects>
-                <viewController id="bi1-oE-W7y" customClass="myViewController2" customModule="Meander_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bi1-oE-W7y" customClass="myViewController2" customModule="Meander" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eS7-8O-8zh"/>
                         <viewControllerLayoutGuide type="bottom" id="DjD-bZ-vgJ"/>
@@ -90,6 +90,10 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yXX-Q7-e7P" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="402" width="320" height="171"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -97,11 +101,12 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="label" destination="buP-NV-S8x" id="TPA-rD-8Ao"/>
+                        <outlet property="viewMap" destination="yXX-Q7-e7P" id="2bR-Xa-Bqo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sgk-jq-Bax" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1052" y="298"/>
+            <point key="canvasLocation" x="684" y="100"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dtp-IC-f9I">
@@ -121,7 +126,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l3G-x8-iS2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="184" y="298"/>
+            <point key="canvasLocation" x="-184" y="100"/>
         </scene>
     </scenes>
 </document>

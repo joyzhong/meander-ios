@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "222D8A5419CCF9F900D2DB53"
-               BuildableName = "Yelp.app"
-               BlueprintName = "Yelp"
-               ReferencedContainer = "container:Yelp.xcodeproj">
+               BuildableName = "Meander.app"
+               BlueprintName = "Meander"
+               ReferencedContainer = "container:Meander.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "222D8A6919CCF9F900D2DB53"
-               BuildableName = "YelpTests.xctest"
-               BlueprintName = "YelpTests"
-               ReferencedContainer = "container:Yelp.xcodeproj">
+               BuildableName = "MeanderTests.xctest"
+               BlueprintName = "MeanderTests"
+               ReferencedContainer = "container:Meander.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "222D8A6919CCF9F900D2DB53"
-               BuildableName = "YelpTests.xctest"
-               BlueprintName = "YelpTests"
-               ReferencedContainer = "container:Yelp.xcodeproj">
+               BuildableName = "MeanderTests.xctest"
+               BlueprintName = "MeanderTests"
+               ReferencedContainer = "container:Meander.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "222D8A5419CCF9F900D2DB53"
-            BuildableName = "Yelp.app"
-            BlueprintName = "Yelp"
-            ReferencedContainer = "container:Yelp.xcodeproj">
+            BuildableName = "Meander.app"
+            BlueprintName = "Meander"
+            ReferencedContainer = "container:Meander.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "222D8A5419CCF9F900D2DB53"
-            BuildableName = "Yelp.app"
-            BlueprintName = "Yelp"
-            ReferencedContainer = "container:Yelp.xcodeproj">
+            BuildableName = "Meander.app"
+            BlueprintName = "Meander"
+            ReferencedContainer = "container:Meander.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "222D8A5419CCF9F900D2DB53"
-            BuildableName = "Yelp.app"
-            BlueprintName = "Yelp"
-            ReferencedContainer = "container:Yelp.xcodeproj">
+            BuildableName = "Meander.app"
+            BlueprintName = "Meander"
+            ReferencedContainer = "container:Meander.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -30,12 +30,12 @@
 
 /* Begin PBXFileReference section */
 		0186C5ACAEC88A712343A862 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		222D8A5519CCF9F900D2DB53 /* Yelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		222D8A5519CCF9F900D2DB53 /* Meander.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meander.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D8A5919CCF9F900D2DB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222D8A5A19CCF9F900D2DB53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222D8A6119CCF9F900D2DB53 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		222D8A6419CCF9F900D2DB53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		222D8A6A19CCF9F900D2DB53 /* YelpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		222D8A6A19CCF9F900D2DB53 /* MeanderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeanderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D8A6F19CCF9F900D2DB53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222D8A7019CCF9F900D2DB53 /* YelpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpTests.swift; sourceTree = "<group>"; };
 		222D8A7C19CCFAE000D2DB53 /* YelpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YelpClient.swift; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		222D8A5619CCF9F900D2DB53 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				222D8A5519CCF9F900D2DB53 /* Yelp.app */,
-				222D8A6A19CCF9F900D2DB53 /* YelpTests.xctest */,
+				222D8A5519CCF9F900D2DB53 /* Meander.app */,
+				222D8A6A19CCF9F900D2DB53 /* MeanderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		222D8A5419CCF9F900D2DB53 /* Yelp */ = {
+		222D8A5419CCF9F900D2DB53 /* Meander */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 222D8A7419CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "Yelp" */;
+			buildConfigurationList = 222D8A7419CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "Meander" */;
 			buildPhases = (
 				4817EA46FAD24F44BB24E6FB /* Check Pods Manifest.lock */,
 				222D8A5119CCF9F900D2DB53 /* Sources */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = Yelp;
+			name = Meander;
 			productName = Yelp;
-			productReference = 222D8A5519CCF9F900D2DB53 /* Yelp.app */;
+			productReference = 222D8A5519CCF9F900D2DB53 /* Meander.app */;
 			productType = "com.apple.product-type.application";
 		};
-		222D8A6919CCF9F900D2DB53 /* YelpTests */ = {
+		222D8A6919CCF9F900D2DB53 /* MeanderTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 222D8A7719CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "YelpTests" */;
+			buildConfigurationList = 222D8A7719CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "MeanderTests" */;
 			buildPhases = (
 				222D8A6619CCF9F900D2DB53 /* Sources */,
 				222D8A6719CCF9F900D2DB53 /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				222D8A6C19CCF9F900D2DB53 /* PBXTargetDependency */,
 			);
-			name = YelpTests;
+			name = MeanderTests;
 			productName = YelpTests;
-			productReference = 222D8A6A19CCF9F900D2DB53 /* YelpTests.xctest */;
+			productReference = 222D8A6A19CCF9F900D2DB53 /* MeanderTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
-				ORGANIZATIONNAME = "Timothy Lee";
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					222D8A5419CCF9F900D2DB53 = {
 						CreatedOnToolsVersion = 6.0;
@@ -210,7 +210,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 222D8A5019CCF9F900D2DB53 /* Build configuration list for PBXProject "Yelp" */;
+			buildConfigurationList = 222D8A5019CCF9F900D2DB53 /* Build configuration list for PBXProject "Meander" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -223,8 +223,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				222D8A5419CCF9F900D2DB53 /* Yelp */,
-				222D8A6919CCF9F900D2DB53 /* YelpTests */,
+				222D8A5419CCF9F900D2DB53 /* Meander */,
+				222D8A6919CCF9F900D2DB53 /* MeanderTests */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 /* Begin PBXTargetDependency section */
 		222D8A6C19CCF9F900D2DB53 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 222D8A5419CCF9F900D2DB53 /* Yelp */;
+			target = 222D8A5419CCF9F900D2DB53 /* Meander */;
 			targetProxy = 222D8A6B19CCF9F900D2DB53 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -409,7 +409,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Yelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Meander;
 				SWIFT_OBJC_BRIDGING_HEADER = "Yelp/Yelp-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -423,7 +423,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Yelp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Meander;
 				SWIFT_OBJC_BRIDGING_HEADER = "Yelp/Yelp-Bridging-Header.h";
 			};
 			name = Release;
@@ -442,7 +442,7 @@
 				);
 				INFOPLIST_FILE = YelpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeanderTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp.app/Yelp";
 			};
 			name = Debug;
@@ -457,7 +457,7 @@
 				);
 				INFOPLIST_FILE = YelpTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MeanderTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yelp.app/Yelp";
 			};
 			name = Release;
@@ -465,7 +465,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		222D8A5019CCF9F900D2DB53 /* Build configuration list for PBXProject "Yelp" */ = {
+		222D8A5019CCF9F900D2DB53 /* Build configuration list for PBXProject "Meander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				222D8A7219CCF9F900D2DB53 /* Debug */,
@@ -474,7 +474,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		222D8A7419CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "Yelp" */ = {
+		222D8A7419CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "Meander" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				222D8A7519CCF9F900D2DB53 /* Debug */,
@@ -483,7 +483,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		222D8A7719CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "YelpTests" */ = {
+		222D8A7719CCF9F900D2DB53 /* Build configuration list for PBXNativeTarget "MeanderTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				222D8A7819CCF9F900D2DB53 /* Debug */,
